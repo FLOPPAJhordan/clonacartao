@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Validação de CPF</title>
+  <!-- Adicionando Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Adicionando arquivo CSS personalizado -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container mt-5">
+    <h1>Validação de CPF</h1>
+    <div class="form-group">
+      <label for="cpfInput">Digite o CPF:</label>
+      <input type="text" class="form-control" id="cpfInput" placeholder="Digite o CPF">
+    </div>
+    <button class="btn btn-primary" onclick="validarCPF()">Validar CPF</button>
+    <div id="resultado" class="mt-3"></div>
+  </div>
+
+  <!-- Adicionando Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- Adicionando arquivo JavaScript personalizado -->
+  <script src="script.js"></script>
+</body>
+</html>
